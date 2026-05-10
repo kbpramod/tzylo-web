@@ -1,18 +1,13 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "next-themes"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
-
 export const metadata: Metadata = {
-  title: "Tzylo - Open Source Authentication Infrastructure",
+  title: "Tzylo Synapse — Automatic Code Review & Living Documentation",
   description:
-    "Tzylo is an open-source, self-hostable authentication platform built for developers who care about security, control, and simplicity.",
-  generator: "v0.app",
+    "Tzylo Synapse is a GitHub App that reviews your PRs and automatically updates TZYLO.md — a living documentation file that grows with your codebase. No manual writing. No outdated docs.",
   icons: {
     icon: [
       {
@@ -38,10 +33,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`font-sans antialiased`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
-        {children}
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      </head>
+      <body className="font-sans antialiased">
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+          {children}
         </ThemeProvider>
         <Analytics />
       </body>

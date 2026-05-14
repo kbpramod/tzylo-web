@@ -1,0 +1,20 @@
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- single primary block -->
+  <rect
+    x="24"
+    y="24"
+    width="72"
+    height="72"
+    rx="12"
+    ry="12"
+    stroke="#0F1117"
+    stroke-width="7.2"
+    fill="#FFFFFF"
+  />
+</svg>

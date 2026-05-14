@@ -59,7 +59,7 @@ export function CTASection() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://github.com/apps/tzylo-synapse"
+                  href="https://github.com/apps/tzylo"
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cta-install-btn"
@@ -71,7 +71,7 @@ export function CTASection() {
                     Install on GitHub — Free
                   </Button>
                 </a>
-                <a
+                {/* <a
                   href="https://github.com/tzylo/synapse"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -83,7 +83,7 @@ export function CTASection() {
                   >
                     View on GitHub
                   </Button>
-                </a>
+                </a> */}
               </div>
 
               <p className="text-sm text-muted-foreground mt-8">

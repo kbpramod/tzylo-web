@@ -1,0 +1,49 @@
+
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- top-right block -->
+  <rect
+    x="62"
+    y="22"
+    width="24"
+    height="24"
+    rx="4"
+    ry="4"
+    stroke="#FFFFFF"
+    stroke-width="2.4"
+    fill="#0F1117"
+  />
+
+  <!-- middle-left block -->
+  <rect
+    x="34"
+    y="46"
+    width="24"
+    height="24"
+    rx="4"
+    ry="4"
+    stroke="#FFFFFF"
+    stroke-width="2.4"
+    fill="#0F1117"
+  />
+
+  <!-- bottom-left block -->
+  <rect
+    x="34"
+    y="74"
+    width="24"
+    height="24"
+    rx="4"
+    ry="4"
+    stroke="#FFFFFF"
+    stroke-width="2.4"
+    fill="#0F1117"
+  />
+
+
+</svg>

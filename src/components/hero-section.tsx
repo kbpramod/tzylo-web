@@ -72,7 +72,7 @@ export function HeroSection() {
           }`}
         >
           <a
-            href="https://github.com/apps/tzylo-synapse"
+            href="https://github.com/apps/tzylo"
             target="_blank"
             rel="noopener noreferrer"
             id="hero-install-btn"
@@ -84,7 +84,7 @@ export function HeroSection() {
               Install on GitHub
             </Button>
           </a>
-          <a
+          {/* <a
             href="https://github.com/tzylo/synapse"
             target="_blank"
             rel="noopener noreferrer"
@@ -99,7 +99,7 @@ export function HeroSection() {
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </Button>
-          </a>
+          </a> */}
         </div>
 
         {/* Stats */}

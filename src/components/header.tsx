@@ -68,7 +68,7 @@ export function Header() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://github.com/apps/tzylo-synapse"
+            href="https://github.com/apps/tzylo"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -132,7 +132,7 @@ export function Header() {
             </a>
             <div className="mt-2 px-4">
               <a
-                href="https://github.com/apps/tzylo-synapse"
+                href="https://github.com/apps/tzylo"
                 target="_blank"
                 rel="noopener noreferrer"
               >

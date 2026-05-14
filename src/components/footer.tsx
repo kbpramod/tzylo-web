@@ -55,18 +55,18 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4 text-sm uppercase tracking-wider">Resources</h4>
             <ul className="space-y-3">
               <li>
-                <a
+                {/* <a
                   href="https://github.com/tzylo/synapse"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                 >
                   GitHub Repository
-                </a>
+                </a> */}
               </li>
               <li>
                 <a
-                  href="https://github.com/apps/tzylo-synapse"
+                  href="https://github.com/apps/tzylo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground text-sm transition-colors"
@@ -74,7 +74,7 @@ export function Footer() {
                   Install App
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://github.com/tzylo/synapse/issues"
                   target="_blank"
@@ -83,7 +83,7 @@ export function Footer() {
                 >
                   Report an Issue
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

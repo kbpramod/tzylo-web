@@ -102,25 +102,21 @@ export function WhySection() {
           </div>
 
           {/* Right: Visual */}
-          <div
+          {/* <div
             className={`mt-12 lg:mt-0 transition-all duration-1000 ${
               visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
             }`}
           >
             <div className="relative">
-              {/* Glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-3xl scale-110" />
 
-              {/* Card */}
               <div className="relative glass-card rounded-2xl p-8 sm:p-10">
                 <div className="space-y-6">
-                  {/* Simulated terminal */}
                   <div className="flex items-center gap-2 mb-6">
                     <div className="w-3 h-3 rounded-full bg-primary/50" />
                     <span className="text-sm text-muted-foreground font-mono">your-repo/TZYLO.md</span>
                   </div>
 
-                  {/* Stats */}
                   <div className="grid grid-cols-2 gap-4">
                     <div className="p-4 rounded-xl bg-secondary/30 border border-border/30">
                       <div className="text-3xl font-bold gradient-text">142</div>
@@ -148,7 +144,7 @@ export function WhySection() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
